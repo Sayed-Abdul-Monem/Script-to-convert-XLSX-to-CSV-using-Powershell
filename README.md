@@ -33,7 +33,7 @@ When to Use Each Script?<br />
 
 ## Process Each File: Using foreach looping to Loops through each Excel file in the input directory. <br /> 
 
-## Handle Multi-Sheet Excel Files: Opens the Excel file and extracts sheet names using Open-ExcelPackage and Iterates over each sheet, converts it to CSV, and saves it with the sheet name appended. <br />
+- Handle Multi-Sheet Excel Files: Opens the Excel file and extracts sheet names using Open-ExcelPackage and Iterates over each sheet, converts it to CSV, and saves it with the sheet name appended. <br />
 
 ## Cleanup:<br />
 - Removes the ImportExcel module after the process is complete.<br />
